@@ -18,6 +18,7 @@ Connected to MongoDB
 
 3. Start web page front-end: open a new terminal under "app" file, enter: npm start
    you should see something like:
+
    Compiled successfully!
 
 You can now view trello-frontend in the browser.
