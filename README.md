@@ -28,7 +28,9 @@ You can now view trello-frontend in the browser.
 
 After you see this, wait for a few second (or a while, it has a chance to get stuck especially when the internet is unstable)
 Then, your browser will pop a new page with web address like: localhost:3000
+
 Then, let's add "/productList" behind the web address, it should be: localhost:3000/productList. 
+
 Confirm the web address, 
 
 you will see the web page now!
