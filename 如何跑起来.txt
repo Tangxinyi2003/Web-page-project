@@ -1,0 +1,7 @@
+node 14.18能跑
+
+启动mongo服务：cd到mongodb的安装包的bin目录  ，打开powershell    执行  ./mongod --dbpath ..\mongodata\
+启动express服务：根目录下 node server.js
+启动前端项目：app目录下 npm start
+
+
