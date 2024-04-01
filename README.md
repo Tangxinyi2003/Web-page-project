@@ -27,9 +27,9 @@ Connected to MongoDB
 You can now view trello-frontend in the browser.
 
 After you see this, wait for a few second (or a while, it has a chance to get stuck especially when the internet is unstable)
-Then, your browser will pop a new page with web address like: localhost:3000
+Then, your browser will pop a new page with web address like: localhost:3000 (the number might be different, don't change the number)
 
-Then, let's add "/productList" behind the web address, it should be: localhost:3000/productList. 
+Then, let's add "/productList" behind the web address, it should be: localhost:3000/productList. (still, remember the number might be different with mine, that is ok, don't change it)
 
 Confirm the web address, 
 
