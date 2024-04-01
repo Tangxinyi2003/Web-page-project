@@ -1,0 +1,111 @@
+.header {
+  background-color: #5048e5;
+  width: 100%;
+  position: relative;
+}
+.header .wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  color: #ffffff;
+  padding: 0 20px; /* Decreased padding for mobile */
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 64px;
+  line-height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 20px; /* Increased font size for mobile */
+  cursor: pointer;
+}
+
+.header .logo span {
+  font-size: 12px;
+}
+
+.header .searchbar {
+  margin-left: 20px; /* Decreased margin for mobile */
+  width: 300px; /* Full width for mobile */
+  margin-top: 10px; /* Decreased margin for mobile */
+}
+.header .signin {
+  display: flex;
+  align-items: center;
+}
+.header .signin span {
+  cursor: pointer;
+}
+
+.header .cart {
+  display: flex;
+  align-items: center;
+}
+.main-container {
+  min-height: calc(100vh - 128px);
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #5048e5;
+  width: 100%;
+}
+
+.footer .wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  color: #ffffff;
+  padding: 0 20px; /* Decreased padding for mobile */
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 64px;
+  line-height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .menu {
+  width: 300px; /* Full width for mobile */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 16px;
+    height: 100px;
+  }
+  .header .searchbar {
+    /* margin-left: 20px; */
+    width: 300px;
+    /* margin-top: 10px; */
+    /* display: none; */
+    /* float: right; */
+    /* margin-top: 63px; */
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .header .signin span {
+    display: none;
+  }
+
+  .footer {
+    font-size: 16px;
+    height: 100px;
+  }
+  .footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -30px;
+    height: 95px;
+    justify-content: flex-end;
+    line-height: 31px;
+  }
+}
