@@ -6,9 +6,11 @@ It is a simple web page project for an e-commerce platform using MERN stack (Mon
 We have three seperate files under the project: app, express, and mongodb, we start them one by one: 
 
 1. Start Mango service: open terminal, cd to "bin" file under "mongodb", enter: ./mongod --dbpath ..\mongodata\
+   
    you should see a long data runing, after it does not run anything new, go to the next step
    
-2. Start Express service: open a new terminal under "express" file, enter: npm start
+3. Start Express service: open a new terminal under "express" file, enter: npm start
+
    you should see something like:
    
 > node server.js
@@ -17,6 +19,7 @@ Server running on port 5000
 Connected to MongoDB
 
 3. Start web page front-end: open a new terminal under "app" file, enter: npm start
+   
    you should see something like:
 
    Compiled successfully!
